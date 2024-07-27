@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Additional extends Model
 {
     use HasFactory;
-
+    protected xxx;s
     public function student(): HasOne
     {
         return $this->hasOne(student::class);
